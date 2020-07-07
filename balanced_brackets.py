@@ -1,6 +1,11 @@
 def balancedBrackets(string):
     # Write your code here
 
+    # Space: O(n) n = length of string
+    # The worst case scenario: All of the string would be brackets that are unmatched and stack would be length n.
+    
+    # Time: O(n) n = length of string
+
     # This dictionary's purpose is to make it easier to check for a matching bracket.
     bracket_dict = {
         '[': ']',
